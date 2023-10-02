@@ -6,8 +6,8 @@
 package cc
 
 import (
-	"github.com/pion/interceptor"
-	"github.com/pion/interceptor/pkg/gcc"
+	"github.com/luc4s/interceptor"
+	"github.com/luc4s/interceptor/pkg/gcc"
 	"github.com/pion/rtcp"
 )
 

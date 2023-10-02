@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pion/interceptor"
-	"github.com/pion/interceptor/internal/ntp"
-	"github.com/pion/interceptor/internal/test"
+	"github.com/luc4s/interceptor"
+	"github.com/luc4s/interceptor/internal/ntp"
+	"github.com/luc4s/interceptor/internal/test"
 	"github.com/pion/logging"
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"

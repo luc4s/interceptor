@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pion/interceptor"
-	"github.com/pion/interceptor/internal/test"
+	"github.com/luc4s/interceptor"
+	"github.com/luc4s/interceptor/internal/test"
 	"github.com/pion/rtp"
 	"github.com/stretchr/testify/assert"
 )

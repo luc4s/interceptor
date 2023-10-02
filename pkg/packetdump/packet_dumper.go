@@ -9,7 +9,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/pion/interceptor"
+	"github.com/luc4s/interceptor"
 	"github.com/pion/logging"
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"

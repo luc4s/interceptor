@@ -8,8 +8,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/pion/interceptor"
-	"github.com/pion/interceptor/pkg/twcc"
+	"github.com/luc4s/interceptor"
+	"github.com/luc4s/interceptor/pkg/twcc"
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
 	"github.com/stretchr/testify/require"

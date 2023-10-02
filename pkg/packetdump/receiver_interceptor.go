@@ -4,7 +4,7 @@
 package packetdump
 
 import (
-	"github.com/pion/interceptor"
+	"github.com/luc4s/interceptor"
 )
 
 // ReceiverInterceptorFactory is a interceptor.Factory for a ReceiverInterceptor

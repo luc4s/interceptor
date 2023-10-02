@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pion/interceptor/internal/cc"
+	"github.com/luc4s/interceptor/internal/cc"
 	"github.com/stretchr/testify/assert"
 )
 
