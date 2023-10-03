@@ -10,8 +10,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/luc4s/interceptor"
 	"github.com/luc4s/interceptor/pkg/nack"
+	"github.com/pion/interceptor"
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
 )

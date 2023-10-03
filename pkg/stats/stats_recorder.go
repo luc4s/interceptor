@@ -8,9 +8,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/luc4s/interceptor"
 	"github.com/luc4s/interceptor/internal/ntp"
 	"github.com/luc4s/interceptor/internal/sequencenumber"
+	"github.com/pion/interceptor"
 	"github.com/pion/logging"
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"

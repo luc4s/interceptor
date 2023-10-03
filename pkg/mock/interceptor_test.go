@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/luc4s/interceptor"
+	"github.com/pion/interceptor"
 )
 
 func TestInterceptor(t *testing.T) {

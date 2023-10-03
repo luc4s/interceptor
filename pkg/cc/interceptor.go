@@ -6,8 +6,7 @@
 package cc
 
 import (
-	"github.com/luc4s/interceptor"
-	"github.com/luc4s/interceptor/pkg/gcc"
+	"github.com/pion/interceptor"
 	"github.com/pion/rtcp"
 )
 
@@ -42,11 +41,6 @@ type InterceptorFactory struct {
 
 // NewInterceptor returns a new CC interceptor factory
 func NewInterceptor(factory BandwidthEstimatorFactory, opts ...Option) (*InterceptorFactory, error) {
-	if factory == nil {
-		factory = func() (BandwidthEstimator, error) {
-			return gcc.NewSendSideBWE()
-		}
-	}
 	return &InterceptorFactory{
 		opts:              opts,
 		bweFactory:        factory,

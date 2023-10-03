@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/luc4s/interceptor"
 	"github.com/luc4s/interceptor/internal/ntp"
+	"github.com/pion/interceptor"
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
 	"github.com/stretchr/testify/assert"

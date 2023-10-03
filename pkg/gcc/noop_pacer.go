@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/luc4s/interceptor"
+	"github.com/pion/interceptor"
 	"github.com/pion/rtp"
 )
 

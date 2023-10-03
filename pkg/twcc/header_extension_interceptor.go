@@ -7,7 +7,7 @@ import (
 	"errors"
 	"sync/atomic"
 
-	"github.com/luc4s/interceptor"
+	"github.com/pion/interceptor"
 	"github.com/pion/rtp"
 )
 

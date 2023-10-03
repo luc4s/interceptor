@@ -4,7 +4,7 @@
 // Package nack provides interceptors to implement sending and receiving negative acknowledgements
 package nack
 
-import "github.com/luc4s/interceptor"
+import "github.com/pion/interceptor"
 
 func streamSupportNack(info *interceptor.StreamInfo) bool {
 	for _, fb := range info.RTCPFeedback {

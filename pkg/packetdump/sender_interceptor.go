@@ -4,7 +4,7 @@
 package packetdump
 
 import (
-	"github.com/luc4s/interceptor"
+	"github.com/pion/interceptor"
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
 )
